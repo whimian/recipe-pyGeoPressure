@@ -1,0 +1,35 @@
+package:
+  name: pygeopressure
+  version: "0.1.0"
+
+source:
+  git_rev: v0.1.0
+  git_url: https://github.com/whimian/pyGeoPressure.git
+  # path: .
+
+requirements:
+  build:
+    - python
+    - setuptools
+    - numpy
+    - scipy
+    - pandas
+    - matplotlib
+    - segpy-lite
+
+  run:
+    - python
+    - numpy
+    - scipy
+    - pandas
+    - matplotlib
+    - segpy-lite
+
+test:
+  # imports:
+    # - pygeopressure
+
+about:
+  home: https://github.com/whimian/pyGeoPressure
+  license: MIT
+  license_file: LICENSE
